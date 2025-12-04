@@ -1,5 +1,5 @@
-# AIDE Workshop Guide: File Integrity Monitoring for Linux Hardening
-
+# CSEC Linux (AIDE) Workshop
+s
 Detecting unauthorized filesystem changes is one of the most effective defenses against rootkits, backdoors, and configuration tampering. **AIDE (Advanced Intrusion Detection Environment)** creates cryptographic baselines of critical system files and alerts administrators when anything changes—making it an essential tool for Linux hardening. This workshop provides hands-on experience configuring AIDE on Ubuntu VMs, from initial setup through detecting simulated intrusions.
 
 ## Workshop environment setup with OSBOXES
