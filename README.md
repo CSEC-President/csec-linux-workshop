@@ -1,5 +1,5 @@
 # CSEC Linux (AIDE) Workshop
-s
+
 Detecting unauthorized filesystem changes is one of the most effective defenses against rootkits, backdoors, and configuration tampering. **AIDE (Advanced Intrusion Detection Environment)** creates cryptographic baselines of critical system files and alerts administrators when anything changes—making it an essential tool for Linux hardening. This workshop provides hands-on experience configuring AIDE on Ubuntu VMs, from initial setup through detecting simulated intrusions.
 
 ## Workshop environment setup with OSBOXES
@@ -21,6 +21,12 @@ Root Password: osboxes.org
 Download Ubuntu 24.04 from osboxes.org/ubuntu, then extract using 7-Zip (available for all platforms). In VirtualBox, create a new VM selecting "Use an existing virtual hard disk file" and point to the extracted .vdi file. Allocate at least **4GB RAM and 2 CPU cores** for smooth operation.
 
 Configure networking as **Host-Only** for isolated security exercises or **NAT** for internet access during package installation. Guest additions come pre-installed, enabling clipboard sharing and seamless mouse integration. **Take a snapshot immediately** after first boot—this "Clean Install" baseline lets you reset between exercises without re-downloading.
+
+---
+
+## Workshop Workflow
+
+The workflow for this workshop is straightforward: review the Linux lecture presentation materials, then work through this guide to install and configure AIDE. As you go through the presentation slides, **try all the commands yourself**—especially the ones you're unsure about. Experimenting in your VM is the best way to build confidence with the command line. The hands-on exercises in this guide will then apply those skills to file integrity monitoring.
 
 ---
 
